@@ -1,0 +1,64 @@
+/* pages/detail-search/index.wxss */
+page {
+  padding: 0 20rpx;
+  padding-top: 56px;
+}
+
+.search {
+  position: fixed;
+  top: 0;
+  left: 20rpx;
+  right: 20rpx;
+}
+
+.hot {
+  padding: 10rpx;
+}
+
+.hot .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hot .tag {
+  font-size: 26rpx;
+  background-color: #fff;
+  padding: 10rpx 12rpx;
+  border-radius: 16rpx;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.hot .tag:first-of-type {
+  color: #26ce8a;
+}
+
+.suggest {
+  padding: 20rpx 30rpx;
+}
+
+.suggest .title {
+  color: #26ce8a;
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.suggest .item {
+  display: flex;
+  align-items: center;
+  margin-top: 16rpx;
+}
+
+.suggest .item .icon {
+  width: 66rpx;
+  margin-left: -20rpx;
+}
+
+.suggest .item .text {
+  font-style: 28rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  color: #26ce8a;
+}

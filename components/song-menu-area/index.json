@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "aera-header": "/components/area-header",
+    "song-menu-item": "/components/song-menu-item/index"
+  }
+}

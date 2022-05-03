@@ -1,0 +1,16 @@
+<!--pages/detail-video/index.wxml-->
+<video class="video"
+       src="{{mvUrlInfo.url}}"
+       referrer-policy="origin"
+       autoplay
+       loop>
+</video>
+
+<!-- <view>
+  <view class="left">
+    <image url="{{mvDetail.cover}}" mode="widthFix"></image>
+  </view>
+</view> -->
+<block wx:for="{{100}}" wx:key="*this">
+  <view>{{item}}</view>
+</block>
